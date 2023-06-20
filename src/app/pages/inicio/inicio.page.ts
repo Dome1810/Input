@@ -1,11 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { MenuController } from '@ionic/angular';
-import { ComponentsModule } from '../../components/components.module';
 import { DataService } from 'src/app/services/data.service';
 import { Observable } from 'rxjs';
 import { Componente } from 'src/app/interfaces/interfaces';
-//import { Componente } from 'src/app//interfaces/interfaces';
-
+//import { Componente } from './interfaces/interfaces';
 
 //crear una interface para definir propiedades que el componente lista va
 //interface Componente {

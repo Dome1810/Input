@@ -12,6 +12,7 @@ import { ComponentsModule } from './components/components.module';
   declarations: [AppComponent],
   imports: [BrowserModule, 
     IonicModule.forRoot(), 
+    HttpClientModule,
     AppRoutingModule,
     ComponentsModule
   ],

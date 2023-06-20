@@ -1,10 +1,8 @@
 <ion-header >
   <ion-toolbar>
 
-    <ion-buttons> slot="star">
-      <ion-menu-button menu="first" color="primary">
-
-      </ion-menu-button>
+    <ion-buttons slot="star">
+      <ion-menu-button menu="first" color="primary"> </ion-menu-button>
     </ion-buttons>
 
     <ion-title color ="primary">Componentes</ion-title>
@@ -17,11 +15,11 @@
 
       <ion-item *ngFor="let c of componentes  | async">
                 [routerLink]="c.redirectTo" detail>
-      <ion-icon slot="start" 
-                [name]="c.icon" 
-                color="primary">
-    </ion-icon> 
-    <ion-label>{{c.name}} </ion-label>
+      <ion-icon [name]="c.icon" 
+                 slot="start" 
+                
+                color="primary"> </ion-icon>
+                 {{c.name}} 
   </ion-item>
   </ion-list>
 
