@@ -1,9 +1,9 @@
-<app-header titulo= 'Input Forms'></app-header>
+<app-header titulo= 'Input '></app-header>
 <!--<app-header [titulo]="nombre ||'Input Forms'></app-header>-->
 <ion-content class="ion-padding">
 <ion-list>
 <ion-list-header>
-<ion-label>Input normal</ion-label>
+<ion-label>Datos</ion-label>
 </ion-list-header>
 
 <ion-item>
@@ -18,9 +18,9 @@
   <form #formulario="ngForm" (ngSubmit)="onSubmit(formulario)">
  
     <ion-list-header>
-  <ion-label>Formulario válido: {{ formulario.valid }}
+  <!--<ion-label>Formulario válido: {{ formulario.valid }}
 
-  </ion-label>
+  </ion-label>-->
   </ion-list-header>
 
   <ion-item>
